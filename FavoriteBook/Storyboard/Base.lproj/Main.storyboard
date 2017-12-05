@@ -160,6 +160,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Za-QK-eu1" id="CDJ-oh-vgJ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kec-QQ-RTJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="kec-QQ-RTJ" secondAttribute="trailing" id="4lw-hD-3sR"/>
+                                                <constraint firstItem="kec-QQ-RTJ" firstAttribute="top" secondItem="CDJ-oh-vgJ" secondAttribute="top" id="F0U-wA-BG2"/>
+                                                <constraint firstAttribute="bottom" secondItem="kec-QQ-RTJ" secondAttribute="bottom" id="OnI-Ev-7HZ"/>
+                                                <constraint firstItem="kec-QQ-RTJ" firstAttribute="leading" secondItem="CDJ-oh-vgJ" secondAttribute="leading" id="PZG-Va-TUd"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -172,6 +186,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="INk-6x-Sl1" id="6m8-uL-cbV">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ODn-F6-yXK">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ODn-F6-yXK" firstAttribute="leading" secondItem="6m8-uL-cbV" secondAttribute="leading" id="3kk-CZ-KKF"/>
+                                                <constraint firstAttribute="bottom" secondItem="ODn-F6-yXK" secondAttribute="bottom" id="Q7G-a7-Vuf"/>
+                                                <constraint firstAttribute="trailing" secondItem="ODn-F6-yXK" secondAttribute="trailing" id="Xkd-68-TXw"/>
+                                                <constraint firstItem="ODn-F6-yXK" firstAttribute="top" secondItem="6m8-uL-cbV" secondAttribute="top" id="eRa-Ud-Fhr"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -184,6 +212,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MyO-GN-8aL" id="u8b-tp-JfS">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UhW-oG-dC0">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="UhW-oG-dC0" secondAttribute="bottom" id="CGj-oh-TjP"/>
+                                                <constraint firstItem="UhW-oG-dC0" firstAttribute="leading" secondItem="u8b-tp-JfS" secondAttribute="leading" id="QXo-Zq-Ggx"/>
+                                                <constraint firstItem="UhW-oG-dC0" firstAttribute="top" secondItem="u8b-tp-JfS" secondAttribute="top" id="Vdr-Hg-mwy"/>
+                                                <constraint firstAttribute="trailing" secondItem="UhW-oG-dC0" secondAttribute="trailing" id="fbQ-fJ-DXx"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -196,6 +238,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Tpr-2p-KwS" id="yN3-FU-LSm">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OkY-Td-Yac">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="OkY-Td-Yac" firstAttribute="leading" secondItem="yN3-FU-LSm" secondAttribute="leading" id="Jh8-Pm-J3U"/>
+                                                <constraint firstItem="OkY-Td-Yac" firstAttribute="top" secondItem="yN3-FU-LSm" secondAttribute="top" id="chp-6F-VRW"/>
+                                                <constraint firstAttribute="trailing" secondItem="OkY-Td-Yac" secondAttribute="trailing" id="ncx-vD-jzp"/>
+                                                <constraint firstAttribute="bottom" secondItem="OkY-Td-Yac" secondAttribute="bottom" id="och-1O-DaV"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
