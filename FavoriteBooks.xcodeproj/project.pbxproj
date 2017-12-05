@@ -66,7 +66,6 @@
 				E3AF0F671FD6D3A400218F10 /* Storyboard */,
 				2C5E3E201E514CC400C02C5F /* Assets.xcassets */,
 				2C5E3E251E514CC400C02C5F /* Info.plist */,
-				E3AF0F681FD6DB1400218F10 /* BookFormTableVC.swift */,
 			);
 			path = FavoriteBook;
 			sourceTree = "<group>";
@@ -76,6 +75,7 @@
 			children = (
 				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
 				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
+				E3AF0F681FD6DB1400218F10 /* BookFormTableVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

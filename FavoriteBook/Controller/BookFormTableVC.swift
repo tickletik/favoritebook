@@ -9,6 +9,8 @@ import UIKit
 
 class BookFormTableVC: UITableViewController {
 
+    var book: Book?
+    
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var authorTextField: UITextField!
     @IBOutlet weak var genreTextField: UITextField!
@@ -23,6 +25,12 @@ class BookFormTableVC: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        updateView()
+    }
+    
+    func updateView() {
+        // this will update the text fields
     }
 
     @IBAction func saveTheBook(_ sender: Any) {
