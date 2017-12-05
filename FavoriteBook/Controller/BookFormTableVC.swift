@@ -44,5 +44,13 @@ class BookFormTableVC: UITableViewController {
     }
 
     @IBAction func saveTheBook(_ sender: Any) {
+        
+        guard let title = titleTextField.text,
+            let author = authorTextField.text,
+            let genre = genreTextField.text,
+            let length = lengthTextField.text else {return}
+        
+        book = Book(title: title, author: author, genre: genre, length: length)
+        performSegue(withIdentifier: PropertyKeys.unwind, sender: self)
     }
 }
