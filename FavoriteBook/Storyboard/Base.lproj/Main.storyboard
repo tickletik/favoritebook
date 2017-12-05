@@ -269,6 +269,9 @@
                                                     <rect key="frame" x="239" y="13" width="46" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Save"/>
+                                                    <connections>
+                                                        <action selector="saveTheBook:" destination="HdE-bN-amK" eventType="touchUpInside" id="J7w-4W-mrP"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
