@@ -271,6 +271,7 @@
                                                     <state key="normal" title="Save"/>
                                                     <connections>
                                                         <action selector="saveTheBook:" destination="HdE-bN-amK" eventType="touchUpInside" id="J7w-4W-mrP"/>
+                                                        <segue destination="oXi-IU-Bmw" kind="unwind" unwindAction="prepareForUnwindWithSegue:" id="lSH-f6-y6f"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -292,6 +293,7 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3o-IE-VvP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="oXi-IU-Bmw" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2551" y="-74"/>
         </scene>
