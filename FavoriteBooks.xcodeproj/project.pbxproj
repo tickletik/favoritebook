@@ -58,16 +58,40 @@
 		2C5E3E181E514CC400C02C5F /* FavoriteBook */ = {
 			isa = PBXGroup;
 			children = (
-				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
-				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
 				2C5E3E191E514CC400C02C5F /* AppDelegate.swift */,
-				2C5E3E2B1E514CE500C02C5F /* Book.swift */,
-				2C5E3E1D1E514CC400C02C5F /* Main.storyboard */,
+				E3AF0F651FD6D36200218F10 /* Controller */,
+				E3AF0F661FD6D38600218F10 /* Model */,
+				E3AF0F671FD6D3A400218F10 /* Storyboard */,
 				2C5E3E201E514CC400C02C5F /* Assets.xcassets */,
-				2C5E3E221E514CC400C02C5F /* LaunchScreen.storyboard */,
 				2C5E3E251E514CC400C02C5F /* Info.plist */,
 			);
 			path = FavoriteBook;
+			sourceTree = "<group>";
+		};
+		E3AF0F651FD6D36200218F10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
+				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3AF0F661FD6D38600218F10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C5E3E2B1E514CE500C02C5F /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3AF0F671FD6D3A400218F10 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2C5E3E1D1E514CC400C02C5F /* Main.storyboard */,
+				2C5E3E221E514CC400C02C5F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
