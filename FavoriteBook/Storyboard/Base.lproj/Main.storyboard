@@ -270,7 +270,7 @@
                                                     <state key="normal" title="Save"/>
                                                     <connections>
                                                         <action selector="saveTheBook:" destination="HdE-bN-amK" eventType="touchUpInside" id="J7w-4W-mrP"/>
-                                                        <segue destination="oXi-IU-Bmw" kind="unwind" unwindAction="prepareForUnwindWithSegue:" id="lSH-f6-y6f"/>
+                                                        <segue destination="oXi-IU-Bmw" kind="unwind" identifier="UnwindToBookTable" unwindAction="prepareForUnwindWithSegue:" id="lSH-f6-y6f"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
